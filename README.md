@@ -11,3 +11,9 @@ pip install -r requirements.txt
 # Create .env then run
 streamlit run app.py
 ```
+
+## Usage
+1. Open the app → sidebar “Configuration” → paste keys (or rely on .env)
+2. Fetch & Index: enter `Ticker`, optionally enable Year/Quarter → Fetch
+3. Chat: ask questions view “Sources for latest question” on the right
+4. Generate Report: choose sections, set target pages → Generate → Download
