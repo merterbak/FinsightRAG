@@ -6,4 +6,4 @@ langchain-community
 langchain-huggingface
 langchain-mistralai
 mistralai
-
+reportlab
