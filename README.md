@@ -20,7 +20,7 @@ source .venv/bin/activate         # Windows: .venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-### Launch Playwright install:
+### Install Playwright:
 
 ```bash
 playwright install
