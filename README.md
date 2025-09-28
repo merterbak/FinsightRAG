@@ -2,7 +2,6 @@
 
 It is a Streamlit application that pulls SEC filings (10-Q, 10-K) straight from EDGAR with no api, performs Mistral OCR on HTML/PDF documents, lets you chat with a Mistral powered LLM with streaming and RAG, and generates exportable reports.
 
----
 
 ## 1. Prerequisites
 
@@ -12,7 +11,7 @@ It is a Streamlit application that pulls SEC filings (10-Q, 10-K) straight from 
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate         # Windows: .venv\Scripts\activate
+source .venv/bin/activate         # For Windows: .venv\Scripts\activate
 ```
 
 ### Install dependencies
@@ -26,7 +25,6 @@ pip install -r requirements.txt
 playwright install
 ```
 
----
 
 ## 2. Environment configuration
 
@@ -36,7 +34,6 @@ Place a `.env` file beside `app.py` or set variables in your UI:
 MISTRAL_API_KEY=your-mistral-key
 ```
 
----
 
 ## 3. Run the application
 
@@ -45,7 +42,6 @@ streamlit run app.py
 ```
 
 
----
 
 ## 4. Feature overview
 
@@ -55,19 +51,17 @@ streamlit run app.py
 - **OCR Preview** – Clean up messy HTML/PDF filings with Mistral OCR and get an easy to read markdown view with extracted images.
 
 
----
 
 ## 5. Compliance reminders
 
 - Respect SEC guidance (~10 requests/second) and include your identity in every request.
 
----
+
 
 ## 6. Disclaimer
 
 This application does not provide investment advice. The content is for informational and educational purposes only, aiming to assist users in exploring and understanding SEC filings.
 
----
 
 ## 7. Future Work
 
